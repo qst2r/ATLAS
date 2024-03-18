@@ -1,8 +1,8 @@
 body {
   font-family: 'Amaranth', sans-serif;
   text-decoration: text-decoration-line: underline; text-decoration-color: red; text-decoration-style: wavy; 
-  background-color: black; 
-  height: 100%;
+  background-color: black;
+  height: 75%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -39,15 +39,16 @@ h2 {
     font-family: 'Inter', sans-serif;
 }
 nav a {
-  margin: 20px
+  margin: 50px
   color:#FF0000;
   text-align: center;
   text-decoration: none;
   font-family: 'Amaranth', sans-serif;
   }  
  nav {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    background-color: #1a1a1a;
-    box-shadow: #1a1a1a;
+   color::#FF0000;   
+   padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #1a1a1a;
+  box-shadow: #1a1a1a;
   }
