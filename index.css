@@ -1,0 +1,57 @@
+body {
+font-family: 'Amaranth', sans-serif;
+color: #FF0000;
+text-decoration: none;
+justify-content: space-between;
+text-align: center;
+backround-color: black;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+animation: fadeIn ease-out 0.8s;
+}
+
+head {
+font-family: 'Inter', sans-serif;
+text-decoration: none;
+color: #FF0000;
+text-align: center;
+background-color: black;
+font-size: 20px;
+animation: fadeIn ease-out 0.8s;
+}
+
+h1 {
+font-family: 'Inter', sans-serif;
+color: #FF0000;
+text-decoration: none;
+text-align: center;
+font-size: 10px;
+margin-block-start: 0.5em;
+margin-block-end: 0.5em;
+margin-inline-start: 0px;
+margin-inline-end: 0px;
+background-color: black;
+filter: brightness(80%);
+}
+
+h2 {
+font-family: 'Inter', sans-serif;
+text-decoration: none;
+color: #FF0000;
+text-align: center;
+background-color: black;
+filter: brightness(80%);
+}
+
+nav a {
+margin: 30px;
+font-family: 'Amaranth', sans-serif;
+text-align: center;
+text-decoration: none;
+}
+
+nav {
+padding-top: 10px;
+padding-bottom: 10px;
+}
