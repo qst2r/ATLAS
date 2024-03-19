@@ -52,6 +52,8 @@ text-decoration: none;
 }
 
 nav {
-padding-top: 10px;
-padding-bottom: 10px;
-}
+padding-top: 15px;
+padding-bottom: 15px;
+background-color: #FFFFFF;
+font-size: 3em;
+box-shadow: #FFFFFF;
