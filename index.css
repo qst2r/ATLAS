@@ -17,7 +17,7 @@ text-decoration: none;
 color: #FF0000;
 text-align: center;
 background-color: black;
-font-size: 6em;
+font-size: 5em;
 animation: fadeIn ease-out 0.8s;
 }
 
@@ -26,7 +26,7 @@ font-family: 'Inter', sans-serif;
 color: #FF0000;
 text-decoration: none;
 text-align: center;
-font-size: 10px;
+font-size: 3em;
 margin-block-start: 0.5em;
 margin-block-end: 0.5em;
 margin-inline-start: 0px;
@@ -45,7 +45,7 @@ filter: brightness(80%);
 }
 
 nav a {
-margin: 30px;
+margin: 20px;
 font-family: 'Amaranth', sans-serif;
 text-align: center;
 text-decoration: none;
@@ -55,5 +55,5 @@ nav {
 padding-top: 15px;
 padding-bottom: 15px;
 background-color: #000000;
-font-size: 10em;
+font-size: 4em;
 box-shadow: #000000;
