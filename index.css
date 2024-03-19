@@ -17,7 +17,7 @@ text-decoration: none;
 color: #FF0000;
 text-align: center;
 background-color: black;
-font-size: 5em;
+font-size: 3em;
 animation: fadeIn ease-out 0.8s;
 }
 
@@ -55,5 +55,4 @@ nav {
 padding-top: 15px;
 padding-bottom: 15px;
 background-color: #000000;
-font-size: 4em;
 box-shadow: #000000;
