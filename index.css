@@ -1,15 +1,16 @@
 body {
+background-color: black;
 font-family: 'Amaranth', sans-serif;
 color: #FF0000;
 text-decoration: none;
 justify-content: space-between;
 text-align: center;
-backround-color: black;
 background-position: center;
 animation: fadeIn ease-out 0.8s;
 }
 
 head {
+background-color: black;
 font-family: 'Inter', sans-serif;
 text-decoration: none;
 color: #FF0000;
@@ -19,6 +20,7 @@ animation: fadeIn ease-out 0.8s;
 }
 
 h1 {
+background-color: black;
 font-family: 'Inter', sans-serif;
 color: #FF0000;
 text-decoration: none;
@@ -32,6 +34,7 @@ filter: brightness(80%);
 }
 
 h2 {
+background-color: black;
 font-family: 'Inter', sans-serif;
 text-decoration: none;
 color: #FF0000;
@@ -41,15 +44,15 @@ font-size: 2em
 }
 
 nav a {
+background-color: black;
 margin: 20px;
 font-family: 'Amaranth', sans-serif;
 text-align: center;
 text-decoration: none;
-background-color: black;
 }
 
 nav {
-padding-top: 15px;
-padding-bottom: 15px;
 background-color: black;
+  padding-top: 15px;
+padding-bottom: 15px;
 box-shadow: #000000;
