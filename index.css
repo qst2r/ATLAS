@@ -11,7 +11,7 @@ animation: fadeIn ease-out 0.8s;
 
 head {
 background-color: black;
-font-family: 'Inter', sans-serif;
+font-family: 'Garamond', sans-serif;
 text-decoration: none;
 color: #FF0000;
 text-align: center;
@@ -21,7 +21,7 @@ animation: fadeIn ease-out 0.8s;
 
 h1 {
 background-color: black;
-font-family: 'Inter', sans-serif;
+font-family: 'Garamond', sans-serif;
 color: #FF0000;
 text-decoration: none;
 text-align: center;
@@ -35,7 +35,7 @@ filter: brightness(80%);
 
 h2 {
 background-color: black;
-font-family: 'Inter', sans-serif;
+font-family: 'Garamond', sans-serif;
 text-decoration: none;
 color: #FF0000;
 text-align: center;
