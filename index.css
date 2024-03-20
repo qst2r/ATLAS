@@ -14,7 +14,6 @@ font-family: 'Inter', sans-serif;
 text-decoration: none;
 color: #FF0000;
 text-align: center;
-background-color: black;
 font-size: 3em;
 animation: fadeIn ease-out 0.8s;
 }
@@ -29,7 +28,6 @@ margin-block-start: 0.5em;
 margin-block-end: 0.5em;
 margin-inline-start: 0px;
 margin-inline-end: 0px;
-background-color: black;
 filter: brightness(80%);
 }
 
@@ -38,7 +36,6 @@ font-family: 'Inter', sans-serif;
 text-decoration: none;
 color: #FF0000;
 text-align: center;
-background-color: black;
 filter: brightness(80%);
 font-size: 2em
 }
