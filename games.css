@@ -19,7 +19,7 @@ font-family: 'Garamond', sans-serif;
 text-decoration: none;
 color: #FF0000;
 text-align: center;
-font-size: 3em;
+font-size: 5em;
 animation: fadeIn ease-out 0.8s;
 }
 
@@ -42,7 +42,10 @@ button:hover {
 
 p {
   color: #FF0000;
+  font-size: 4em;
 }
+
+.buttons {font-size: 10px;}
 
 nav a {
 background-color: black;
