@@ -34,12 +34,16 @@ button {
     animation: fadeIn ease-out 0.7s;
     height: 50px;
     width:  65px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
 }
 
 button:hover {
     background-color: black;
     border: 4px solid #df2c14;
     color: #FF0000;
+    opacity: 0.8;
 }
 
 p {
