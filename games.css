@@ -25,15 +25,15 @@ animation: fadeIn ease-out 0.8s;
 
 button {
     background-color: black;
-    color: #FF0000;
-    border: 2.5px solid #df2c14;
+    color: #FFFFFF;
+    border: 2.5px solid #FFFFFF;
     border-radius:  2px;
     padding-right: 10px;
     margin-bottom: 30px;
     transition-duration: 0.15s;
     animation: fadeIn ease-out 0.7s;
-    height: 50px;
-    width:  65px;
+    height: 60px;
+    width:  85px;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 30px;
@@ -41,7 +41,7 @@ button {
 
 button:hover {
     background-color: black;
-    border: 4px solid #df2c14;
+    border: 4px solid #FFFFFF;
     color: #FF0000;
     opacity: 0.8;
 }
