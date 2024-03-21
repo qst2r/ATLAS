@@ -17,6 +17,7 @@ color: #FF0000;
 text-align: center;
 font-size: 3em;
 animation: fadeIn ease-out 0.8s;
+margin-bottom: 35px;
 }
 
 h1 {
@@ -31,6 +32,7 @@ margin-block-end: 0.5em;
 margin-inline-start: 0px;
 margin-inline-end: 0px;
 filter: brightness(80%);
+margin-bottom: 35px
 }
 
 h2 {
@@ -41,6 +43,7 @@ color: #FF0000;
 text-align: center;
 filter: brightness(80%);
 font-size: 2em
+margin-bottom: 35px
 }
 
 nav a {
