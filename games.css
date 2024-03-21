@@ -27,11 +27,13 @@ button {
     background-color: black;
     color: #FF0000;
     border: 2.5px solid #df2c14;
-    border-radius: 13px;
-    padding: 7px 15px;
-    margin-bottom: 15px;
-    transition-duration: 0.45s;
-    animation: fadeIn ease-out 0.8s;
+    border-radius:  2px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    transition-duration: 0.15s;
+    animation: fadeIn ease-out 0.7s;
+    height: 20px;
+    width:  15px;
 }
 
 button:hover {
@@ -42,10 +44,9 @@ button:hover {
 
 p {
   color: #FF0000;
-  font-size: 6em;
+  font-size: 3em;
 }
 
-.button {font-size: 20px;}
 
 nav a {
 background-color: black;
