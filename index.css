@@ -15,7 +15,7 @@ font-family: 'Garamond', sans-serif;
 text-decoration: none;
 color: #FF0000;
 text-align: center;
-font-size: 3em;
+font-size: 20px;
 animation: fadeIn ease-out 0.8s;
 margin-bottom: 35px;
 }
@@ -26,13 +26,13 @@ font-family: 'Garamond', sans-serif;
 color: #FF0000;
 text-decoration: none;
 text-align: center;
-font-size: 2em;
+font-size: 10px;
 margin-block-start: 0.5em;
 margin-block-end: 0.5em;
 margin-inline-start: 0px;
 margin-inline-end: 0px;
 filter: brightness(80%);
-margin-bottom: 35px
+margin-bottom: 35px;
 }
 
 h2 {
@@ -42,8 +42,8 @@ text-decoration: none;
 color: #FF0000;
 text-align: center;
 filter: brightness(80%);
-font-size: 2em
-margin-bottom: 35px
+font-size: 10px;
+margin-bottom: 35px;
 }
 
 nav a {
