@@ -46,6 +46,19 @@ font-size: 3em;
 margin-bottom: 20px;
 }
 
+button {
+background-color: black;
+color: #FF0000;
+border: 2.5px solid #df2c14;
+border-radius:  2px;
+padding-right: 10px;
+margin-bottom: 70px;
+transition-duration: 0.15s;
+animation: fadeIn ease-out 0.7s;
+height: 50px;
+width:  65px;
+}
+
 nav a {
 background-color: black;
 margin: 20px;
