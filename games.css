@@ -17,7 +17,7 @@ head {
 background-color: black;
 font-family: 'Garamond', sans-serif;
 text-decoration: none;
-color: #FF0000;
+color: #FFFFFF;
 text-align: center;
 font-size: 5em;
 animation: fadeIn ease-out 0.8s;
@@ -29,11 +29,11 @@ button {
     border: 2.5px solid #df2c14;
     border-radius:  2px;
     padding-right: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     transition-duration: 0.15s;
     animation: fadeIn ease-out 0.7s;
-    height: 20px;
-    width:  15px;
+    height: 50px;
+    width:  65px;
 }
 
 button:hover {
@@ -43,8 +43,8 @@ button:hover {
 }
 
 p {
-  color: #FF0000;
-  font-size: 3em;
+  color: #FFFFFF;
+  font-size: 2em;
 }
 
 
