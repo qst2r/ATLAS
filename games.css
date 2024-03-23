@@ -49,11 +49,25 @@ animation: fadeIn ease-out 0.8s;
   }
 
 .sites {
-  text-align: center;
+  justify-content: center;
+  font-size: 3em;
+  background-color: black;
   color: white;
-  font-size: 2em;
-  }
+  margin-bottom: 15px;
+  margin-top: 15px;
+  height: 36px;
+  width: 120px;
+  border-radius: 4px;
+  border: 3px;
+  border-color: red;
+}
 
+.sites:hover {
+  color: red;
+  font-size: 2em;
+  text-decoration: none;
+}
+  
 .search-bar {
 background-color: black;
 color: red;
@@ -65,7 +79,7 @@ font-family: 'georgia',sans-serif;
 font-size: 15px;
 justify-content: center;
 object-align: center;
-width: 75px;
+width: 250px;
 }
 
 .search-bar:hover {
