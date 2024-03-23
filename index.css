@@ -66,6 +66,8 @@ object-position: center;
 border-width: 1px;
 border-style: solid;
 border-color: red;
+margin-right: 50px;
+padding-top: 30px;
 }
 
 nav a {
