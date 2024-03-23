@@ -51,8 +51,8 @@ animation: fadeIn ease-out 0.8s;
 .sites {
   justify-content: center;
   font-size: 3em;
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   margin-bottom: 15px;
   margin-top: 15px;
   height: 36px;
