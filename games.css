@@ -80,7 +80,7 @@ font-size: 15px;
 justify-content: center;
 object-align: center;
 width: 250px;
-height: 100px;
+height: 150px;
 }
 
 .search-bar:hover {
@@ -89,7 +89,7 @@ background-color: white;
 
 .search-bar:active {
 color: red;
-background-color: black;
+background-color: red;
 padding: 16px 14px;
 font-size: 15px;
 width: 75px;
