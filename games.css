@@ -23,7 +23,45 @@ font-size: 5em;
 animation: fadeIn ease-out 0.8s;
 }
 
+ .game {
+    color: #FF0000;
+    font-family: 'Garamond', sans-serif;
+    text-decoration: none;
+    border: 5px solid #FF0000;
+    border-radius: 3px;
+    text-decoration-line: none;
+    grid-template-columns: 200px 1fr max-content;
+  }
 
+  .game:hover {
+    color: #FFFFFF;
+    background-color: black;
+    font-family: 'Georgia', sans-serif;
+    text-decoration: none;
+  }
+
+  .game a {
+    text-decoration: none;
+  }
+
+.game img {
+  border-radius: 10px;
+  aspect-ratio: 1 / 1;
+  width: 100%;
+}
+
+.game {
+  background-color: black;
+  margin: 15px;
+  width: 20%;
+  border-radius: 15px;
+  display: inline-block;  
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 10px red;
+}
+
+.search-bar {
+  
 
 p {
   color: #FFFFFF;
