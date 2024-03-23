@@ -35,7 +35,7 @@ filter: brightness(80%);
 margin-bottom: 20px;
 }
 
- {
+ .headings-2 {
 background-color: black;
 font-family: 'Garamond', sans-serif;
 text-decoration: none;
