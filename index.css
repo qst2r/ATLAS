@@ -61,14 +61,12 @@ animation: fadeIn ease-out 0.15s;
 cursor: pointer;
 width: 250px;
 height: 250px;
-object-fit: contain;
+object-fit: center;
 justify-content: center;
 object-align: center;
 border-width: 1px;
 border-style: solid;
 border-color: red;
-margin-right: 50px;
-padding-top: 30px;
 }
 
 nav a {
