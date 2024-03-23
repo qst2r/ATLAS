@@ -54,6 +54,12 @@ animation: fadeIn ease-out 0.8s;
   font-size: 4em;
   }
 
+.Game-Sites {
+  text-align: center;
+  color: white;
+  font-size: 2em;
+  }
+
 .search-bar {
 background-color: black;
 color: red;
