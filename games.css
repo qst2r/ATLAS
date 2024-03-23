@@ -24,10 +24,10 @@ animation: fadeIn ease-out 0.8s;
 }
 
  .game {
-    color: #FF0000;
+    color: #FFFFFF;
     font-family: 'Garamond', sans-serif;
     text-decoration: none;
-    border: 5px solid #FF0000;
+    border: 5px solid #FFFFFF;
     border-radius: 2px;
     text-decoration-line: none;
     margin-left: 15px;
@@ -41,6 +41,7 @@ animation: fadeIn ease-out 0.8s;
     background-color: black;
     font-family: 'Georgia', sans-serif;
     text-decoration: none;
+    box-shadow: 3px red;
   }
 
   .game a {
