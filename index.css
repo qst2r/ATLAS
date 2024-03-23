@@ -20,7 +20,7 @@ animation: fadeIn ease-out 0.8s;
 margin-bottom: 20px;
 }
 
-h1 {
+.headings {
 background-color: black;
 font-family: 'Garamond', sans-serif;
 color: #FF0000;
@@ -35,7 +35,7 @@ filter: brightness(80%);
 margin-bottom: 20px;
 }
 
-h2 {
+ {
 background-color: black;
 font-family: 'Garamond', sans-serif;
 text-decoration: none;
