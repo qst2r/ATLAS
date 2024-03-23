@@ -47,14 +47,8 @@ animation: fadeIn ease-out 0.8s;
   .game a {
     text-decoration: none;
   }
- 
-  .Game-Sites {
-  text-align: center;
-  color: white;
-  font-size: 4em;
-  }
 
-.Game-Sites {
+.sites {
   text-align: center;
   color: white;
   font-size: 2em;
