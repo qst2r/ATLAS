@@ -54,15 +54,6 @@ animation: fadeIn ease-out 0.8s;
   width: 100%;
 }
 
-.game {
-  background-color: black;
-  margin: 15px;
-  width: 20%;
-  border-radius: 15px;
-  display: inline-block;  
-  cursor: pointer;
-}
-
 .search-bar {
 background-color: black;
 color: red;
