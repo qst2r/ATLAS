@@ -78,6 +78,11 @@ margin-top: 10px;
 margin-bottom: 10px;
 }
 
+p {
+color: red;
+font-family: 'Garamond',sans-serif;
+}
+
 .search-bar {
 background-color: black;
 color: black;
