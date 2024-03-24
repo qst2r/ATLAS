@@ -33,16 +33,18 @@ object-align: center;
 margin-top: 15px;
 margin-bottom: 15px;
 width: 400px;
-color: red;
-background-color: black;
+color: black;
+background-color: white;
 border-radius: 4px;
 }
 
 .hacks:hover {
 background-color: black;
-color: white;
+color: red;
 box-shadow: 3px red;
 font-size: 3em;
+border-color: blue;
+border-size: 4px;
 }
 
 h1 {
@@ -79,7 +81,7 @@ margin-bottom: 10px;
 }
 
 p {
-color: red;
+color: white;
 font-family: 'Garamond',sans-serif;
 }
 
