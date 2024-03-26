@@ -33,9 +33,8 @@ animation: fadeIn ease-out 0.8s;
     margin-left: 15px;
     margin-right: 15px;
     padding-top: 30px;
-    object-align: center;
     width: 200px;
-    height: 36px;
+    height: 50px;
     }
 
   .game:hover {
