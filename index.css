@@ -1,7 +1,7 @@
 body {
 background-color: black;
 font-family: 'Amaranth', sans-serif;
-color: #0000FF;
+color: #FFFFFF;
 text-decoration: none;
 justify-content: space-between;
 text-align: center;
@@ -13,7 +13,7 @@ head {
 background-color: black;
 font-family: 'Garamond', sans-serif;
 text-decoration: none;
-color: #0000FF;
+color: #FFFFFF;
 text-align: center;
 font-size: 5em;
 animation: fadeIn ease-out 0.8s;
@@ -23,7 +23,7 @@ margin-bottom: 20px;
 .headings {
 background-color: black;
 font-family: 'Garamond', sans-serif;
-color: #0000FF;
+color: #FFFFFF;
 text-decoration: none;
 text-align: center;
 font-size: 3em;
@@ -39,7 +39,7 @@ margin-bottom: 20px;
 background-color: black;
 font-family: 'Garamond', sans-serif;
 text-decoration: none;
-color: #0000FF;
+color:#FFFFFF;
 text-align: center;
 filter: brightness(80%);
 font-size: 3em;
