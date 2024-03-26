@@ -33,6 +33,7 @@ animation: fadeIn ease-out 0.8s;
     margin-left: 15px;
     margin-right: 15px;
     padding-top: 30px;
+    width: 250px; 
     grid-template-columns: 200px 1fr max-content;
     }
 
