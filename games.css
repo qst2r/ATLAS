@@ -78,17 +78,18 @@ font-family: 'georgia',sans-serif;
 font-size: 15px;
 justify-content: center;
 object-align: center;
-width: 250px;
+width: 400px;
 height: 36px;
 }
 
 .search-bar:hover {
-background-color: white;
+background-color: black;
+width: 200px;
 }
 
 .search-bar:active {
-color: red;
-background-color: red;
+color: black;
+background-color: white;
 padding: 16px 14px;
 font-size: 15px;
 width: 250px;
