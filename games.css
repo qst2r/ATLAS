@@ -27,7 +27,7 @@ animation: fadeIn ease-out 0.8s;
     color: #FFFFFF;
     font-family: 'Garamond', sans-serif;
     text-decoration: none;
-    border: 5px solid #FFFFFF;
+    border: 5px solid #0000FF;
     border-radius: 2px;
     text-decoration-line: none;
     grid-template-columns: 200px 1fr max-content;
