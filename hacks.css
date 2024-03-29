@@ -33,15 +33,15 @@ object-align: center;
 margin-top: 15px;
 margin-bottom: 15px;
 width: 400px;
-color: black;
-background-color: white;
+color: #000000;
+background-color: #FFFFFF;
 border-radius: 4px;
 }
 
 .hacks:hover {
-background-color: black;
-color: red;
-box-shadow: 3px red;
+background-color: #FFFFFF;
+color: #000000;
+box-shadow: 3px blue;
 font-size: 2em;
 border-color: blue;
 border-size: 4px;
