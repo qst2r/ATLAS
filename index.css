@@ -57,7 +57,7 @@ animation: bg-gradient 10s ease infinite;
 animation: fadeIn ease-out 0.15s;
 }
 
-.logo {
+.icon {
 cursor: pointer;
 width: 250px;
 height: 250px;
@@ -66,7 +66,8 @@ justify-content: center;
 object-align: center;
 border-width: 1px;
 border-style: solid;
-border-color: red;
+border-color: blue;
+border-radius: 3px;
 }
 
 nav a {
