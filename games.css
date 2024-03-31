@@ -82,7 +82,7 @@ animation: fadeIn ease-out 0.8s;
 }
   
 .search-bar {
-background-color: black;
+background-color: white;
 color: black;
 margin-top: 20px;
 margin-bottom: 20px;
@@ -101,8 +101,8 @@ background-color: black;
 }
 
 .search-bar:active {
-color: black;
-background-color: white;
+color: white;
+background-color: black;
 padding: 16px 14px;
 font-size: 15px;
 }
