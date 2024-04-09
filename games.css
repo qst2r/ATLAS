@@ -107,7 +107,7 @@ padding: 16px 14px;
 font-size: 15px;
 }
 
-button {
+.random {
     background-color: black;
     border: 2px solid blue;
     color: blue;
@@ -115,7 +115,7 @@ button {
     font-family: 'georgia', sans-serif;
 }
 
-button:hover {
+.random:hover {
   background-color: white;
   border: 2px solid blue;
   color: black;
@@ -125,7 +125,7 @@ button:hover {
 }
 
 h1 {
-color: white;
+color: #FFFFFF;
 background-color: black;
 }
 
