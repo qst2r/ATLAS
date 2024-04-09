@@ -106,7 +106,28 @@ background-color: black;
 padding: 16px 14px;
 font-size: 15px;
 }
-  
+
+button {
+    background-color: black;
+    border: 2px solid blue;
+    color: blue;
+    text-align: center;
+    font-family: 'georgia', sans-serif;
+}
+
+button:hover {
+  background-color: white;
+  border: 2px solid blue;
+  color: black;
+  text-align: center;
+  font-family: 'georgia', sans-serif;
+  cursor: pointer;
+}
+
+h1 {
+color: white;
+background-color: black;
+}
 
 p {
   color: #FFFFFF;
