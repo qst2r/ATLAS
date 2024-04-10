@@ -71,7 +71,6 @@ border-radius: 3px;
 }
 
 nav a {
-background-color: black;
 margin: 20px;
 font-family: 'Georgia', sans-serif;
 text-align: center;
@@ -79,8 +78,8 @@ text-decoration: none;
 }
 
 nav {
-background-color: black;
+background-color: #1a1a1a;
   padding-top: 15px;
 padding-bottom: 15px;
-box-shadow: #000000;
+box-shadow: #1a1a1a;
 }
