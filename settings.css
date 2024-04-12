@@ -1,0 +1,95 @@
+* {
+  font-family: 'Georgia', sans-serif;
+}
+
+body {
+background-color: black;
+font-family: 'Amaranth', sans-serif;
+color: #FFFFFF; 
+text-decoration: none;
+justify-content: space-between;
+text-align: center;
+background-position: center;
+animation: fadeIn ease-out 0.8s;
+}
+
+head {
+background-color: black;
+font-family: 'Garamond', sans-serif;
+text-decoration: none;
+color: #FFFFFF;
+text-align: center;
+font-size: 5em;
+animation: fadeIn ease-out 0.8s;
+}
+
+h1 {
+font-family: 'Garamond',sans-serif;
+font-size: 2em;
+font-weight: bold;
+text-align: center;
+background-color: black;
+color: white;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+h2 {
+font-family: 'Garamond',sans-serif;
+font-size: 2em;
+font-weight: bold;
+text-align: center;
+background-color: black;
+color: white;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+h3 {
+font-family: 'Garamond',sans-serif;
+font-size: 2em;
+font-weight: bold;
+text-align: center;
+background-color: black;
+color: white;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+p {
+color: white;
+font-family: 'Garamond',sans-serif;
+}
+
+.cloaks {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'georgia', sans-serif;
+}
+
+.time {
+color: white;
+text-align: center;
+margin: 20px;
+font-family: 'georgia', sans-serif;
+padding-top: 10px;
+padding-bottom: 10px;
+background-color: #1a1a1a;
+box-shadow: #1a1a1a;
+}
+
+nav a {
+background-color: black;
+margin: 20px;
+font-family: 'Georgia', sans-serif;
+text-align: center;
+text-decoration: none;
+}
+
+nav {
+background-color: black;
+padding-top: 15px;
+padding-bottom: 15px;
+box-shadow: #000000;
+}  
