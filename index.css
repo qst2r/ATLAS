@@ -83,3 +83,12 @@ background-color: #1a1a1a;
 padding-bottom: 15px;
 box-shadow: #1a1a1a;
 }
+
+.time {
+color: white;
+padding-top: 10px;
+padding-left: 10px;
+padding-bottom: 10px;
+padding-left:10px;
+margin-left: 200px;
+}
