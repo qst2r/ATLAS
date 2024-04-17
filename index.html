@@ -1,64 +1,44 @@
 <!DOCTYPE html>
-<html>
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <head>
-    <title>NEPTUNE GAMES</title>
-    <link href="https://fonts.googleapis.com/css2?family=Amaranth&display=swap" rel="stylesheet">
-    <script src="/js/all.js"></script>
-    <script src="/js/main.js"></script>
-    <script src="/js/themes.js"></script>
-    <link rel="stylesheet" href="index.css">
-  </head>
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-D60Y5MK0EM"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<html lang="en">
+<head>
 
-  gtag('config', 'G-D60Y5MK0EM');
-</script>  
-  <body>
-     
-    <nav>
-            <a href="index.html"><i>Home</i></a>
-            <a href="games.html"><i>Games</i></a>
-            <a href="hacks.html"><i>Bookmark</i></a>
-            <a href="settings.html"><i>Settings</i></a>
-            <a href="calculator.html"><i>Calculator</i></a>
-            <a href="about.html"><i>About</i></a>
-            <p id="time" class="time">00:00:00 AM</p>
-    </nav>
+	<meta charset="utf-8">
 
-     <a class="icon" href="/./"><img alt="nav" id="INImg" src="Neptune Logo.png"/></a>     
-    
-    
-    <p class="headings">
-    <strong>Neptune Games</strong>
-    </p>
-    
-    <p class="headings 2">
-    <strong>NEPTUNE GAMES</strong> is an all new gaming website like selenite
-    </p>
+	<title>Dadish 2</title>
 
-    <div>
-    <a href="https://autumn-puzzles.norushcharge.com">Backup Neptune Games</a>
-    </div>
+	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
 
-    <p class="headings">
-    <ol>
-    <il>Home-The page you are on right now.</il>
-    <il>Games is the page where you can play games on. It has emulators,ruffle games, etc.</il>
-    <il>Hacks is the page with the hacks. The instructions are posted on the top.</il>
-    <il>About is the page which has the updates and additional information about the gaming site.</il>
-    <il>New page coming soon. Suggestions for games/hacks.</il>
-    </ol>
-    </p>
+	<script src="/js/all.js"></script>
+	<link rel="shortcut icon" type="image/png" href="./favicon.png">
 
-    <p class="headings">
-    <strong>The CALCULATOR TAB</strong> does not work, but is in the form of a button on the games page.
-    </p>
-    
-       
+		<!-- added this line for Poki -->
+        <script src="poki-sdk.js"></script>
+	<script type="text/javascript" src="Dadish 2 Poki.js"></script>
+
+	<script>
+		window.addEventListener ("touchmove", function (event) { event.preventDefault (); }, { capture: false, passive: false });
+		if (typeof window.devicePixelRatio != 'undefined' && window.devicePixelRatio > 2) {
+			var meta = document.getElementById ("viewport");
+			meta.setAttribute ('content', 'width=device-width, initial-scale=' + (2 / window.devicePixelRatio) + ', user-scalable=no');
+		}
+	</script>
+
+	<style>
+		html,body { margin: 0; padding: 0; height: 100%; overflow: hidden; }
+		#content { background: #000000; width: 100%; height: 100%; }
+
+	</style>
+
+</head>
+<body>
+	
+
+	<div id="content"></div>
+
+	<script type="text/javascript">
+		lime.embed ("Dadish 2 Poki", "content", 768, 432);
+	</script>
+
 </body>
 </html>
