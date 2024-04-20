@@ -73,7 +73,8 @@ margin-bottom: 30px;
 
 nav a {
     margin-top: 20px;
-    color: #fff;
+    justify-content: center;
+    color: #FF0000;
     text-align: center;
     text-decoration: none;
     font-family: 'georgia', sans-serif;
