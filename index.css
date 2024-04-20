@@ -72,18 +72,17 @@ margin-bottom: 30px;
 }
 
 nav a {
-margin: 20px;
-font-family: 'Georgia', sans-serif;
-text-align: center;
-text-decoration: none;
-}
+    margin: 20px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'georgia', sans-serif;
+  }
 
-nav {
-background-color: #1a1a1a;
-  padding-top: 15px;
-padding-bottom: 15px;
-box-shadow: #1a1a1a;
-justify-content: center;
-margin: top;
-}
+  nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #1a1a1a;
+    box-shadow: #1a1a1a;
+  }
 
