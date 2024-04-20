@@ -1,54 +1,28 @@
-<!DOCTYPE html>
 <html>
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
   <head>
-    <title>Neptune Home</title>
-    <head><meta charset="utf-8"> <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Georgia&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Georgia&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="index.css">
+
+<script src="/js/all.js"></script>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gun Mayhem 2</title>
+    <style>html{background-color:#000;}</style>
   </head>
   <body>
-  <header>
-	  
-      <nav>
-            <a href="index.html"><i>Home</i></a>
-            <a href="games.html"><i>Games</i></a>
-            <a href="hacks.html"><i>Bookmark</i></a>
-	    <a href="settings.html"><i>Settings</i></a>
-	    <a href="calculator.html"><i>Calculator</i></a>
-            <a href="about.html"><i>About</i></a>
-    
-      </nav>  
-   
-    
-    </header>
-
-    <div class="headings">
-    <h1><strong>NEPTUNE GAMES</strong></h1>
-    </div>
-
-    <div class="headings-2">
-    <h2><strong>NEPTUNE GAMES</strong>is a gaming website like selenite and has games from SELENITE.</h2>
-    </div>
-
-   <ul>
-    <li>
-      The Home page is the page you are on right now.
-    </li>
-     <il>
-       The games page is the page that contains all of the projects.
-     </il>
-     <li>
-       The hacks page contains all of the hacks.
-     </li>
-     <li>
-       The Calculator page is still under BETA and I am working to fix it.
-     </li>
-     <li>
-       The about page contains the credits and updates.
-     </li>
-   </ul>
-
-    
+    <div id="ruffle" width="100%" height="100%"></div>
+    <script src="https://unpkg.com/@ruffle-rs/ruffle"></script>
+    <script>
+      window.RufflePlayer = window.RufflePlayer || {};
+      window.addEventListener("load", (event) => {
+        const ruffle = window.RufflePlayer.newest();
+        const player = ruffle.createPlayer();
+        const container = document.getElementById("ruffle");
+        player.id = "player";
+        player.style.width = "100%";
+        player.style.height = "100%";
+        container.appendChild(player);
+        player.load("gunmayhem2.swf");
+      });
+    </script>
+  </body>
+</html>
