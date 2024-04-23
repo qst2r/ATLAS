@@ -74,16 +74,16 @@ margin-bottom: 30px;
 nav a {
 background-color: black;
 margin: 20px;
+padding-right: 130px;
+jusitfy-content: center;
 font-family: 'Georgia', sans-serif;
 text-align: center;
 text-decoration: none;
 }
 
 nav {
-background-color: black;
 padding-top: 15px;
 padding-bottom: 15px;
 background-color: #1a1a1a;
 box-shadow: #1a1a1a;
 }
-
