@@ -1,0 +1,36 @@
+body {
+background-color: black;
+font-family: 'Amaranth', sans-serif;
+color: #FFFFFF; 
+text-decoration: none;
+justify-content: space-between;
+text-align: center;
+background-position: center;
+animation: fadeIn ease-out 0.8s;
+}
+
+h1 {
+font-family: 'Garamond',sans-serif;
+font-size: 2em;
+font-weight: bold;
+text-align: center;
+background-color: black;
+color: white;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+nav a {
+background-color: black;
+margin: 20px;
+font-family: 'Georgia', sans-serif;
+text-align: center;
+text-decoration: none;
+}
+
+nav {
+background-color: black;
+padding-top: 15px;
+padding-bottom: 15px;
+box-shadow: #000000;
+}
