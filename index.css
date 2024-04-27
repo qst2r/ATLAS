@@ -57,6 +57,17 @@ animation: bg-gradient 10s ease infinite;
 animation: fadeIn ease-out 0.15s;
 }
 
+.game-icon {
+height: 30px;
+width: 20px;
+border: 2px;
+border-color: blue;
+justify-content: center;
+cursor: pointer;
+object-fit: center;
+margin-bottom: 40px;
+}
+
 .icon {
 cursor: pointer;
 width: 250px;
