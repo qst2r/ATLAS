@@ -98,8 +98,8 @@ margin-bottom: 30px;
 }
 
 .search-bar {
-background-color: white;
-color: black;
+background-color: black;
+color: white;
 font-family: 'georgia',sans-serif;
 font-size: 15px;
 justify-content: center;
@@ -109,8 +109,8 @@ height: 40px;
 }
 
 .search-bar:hover {
-background-color: white;
-color: black;
+background-color: black;
+color: white;
 }
 
 .search-bar:active {
