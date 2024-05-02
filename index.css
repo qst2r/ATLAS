@@ -104,8 +104,8 @@ font-family: 'georgia',sans-serif;
 font-size: 15px;
 justify-content: center;
 object-align: center;
-width: 250px;
-height: 100px;
+width: 200px;
+height: 55px;
 }
 
 .search-bar:hover {
@@ -118,7 +118,7 @@ color: white;
 background-color: black;
 padding: 16px 14px;
 font-size: 15px;
-width: 300px;
+width: 220px;
 }
 
 nav a {
