@@ -67,7 +67,7 @@ animation: fadeIn ease-out 0.15s;
  text-align: center;
  font-family: 'georgia', sans-serif;
  justify-content: center;
- display: center;
+ display: center grid;
  grid-template-columns: repeat(4, 1fr);
  gap: 20px;
 }
