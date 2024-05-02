@@ -98,6 +98,7 @@ height: 36px;
 
 .search-bar:hover {
 background-color: black;
+color: white;
 }
 
 .search-bar:active {
