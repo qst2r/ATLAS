@@ -97,6 +97,30 @@ border-radius: 3px;
 margin-bottom: 30px;
 }
 
+.search-bar {
+background-color: white;
+color: black;
+font-family: 'georgia',sans-serif;
+font-size: 15px;
+justify-content: center;
+object-align: center;
+width: 250px;
+height: 100px;
+}
+
+.search-bar:hover {
+background-color: white;
+color: black;
+}
+
+.search-bar:active {
+color: white;
+background-color: black;
+padding: 16px 14px;
+font-size: 15px;
+width: 300px;
+}
+
 nav a {
 margin: 20px;
 padding-right: 135px;
