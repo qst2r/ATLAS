@@ -81,32 +81,109 @@ animation: fadeIn ease-out 0.8s;
   text-decoration: none;
 }
   
-.search-bar {
-background-color: white;
-color: black;
-margin-top: 20px;
-margin-bottom: 20px;
-margin-left: 15px;
-margin-right: 15px;
-font-family: 'georgia',sans-serif;
-font-size: 15px;
-justify-content: center;
-object-align: center;
-width: 250px;
-height: 36px;
-}
+ #searchResultTemplate {
+      
+  border-radius: 25px;
+  background-color: #55067ca6;
+  padding: 15px;
+  width: 200px;
+  height: 210px;
+  display: grid;
+  transition: 0.30s;
+  margin: 10px;
+  display: inline-block;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  outline-style: solid;
+  outline-color:#490670;
+  }
 
-.search-bar:hover {
-background-color: white;
-color: black;
-}
+  .more {
+  
+    border-radius: 25px;
+    background-color: #55067c;
+    padding: 15px;
+    width: 100px;
+    height: 20px;
+    display: grid;
+    transition: 0.75s;
+    margin: 10px;
+    outline-style: solid;
 
-.search-bar:active {
-color: white;
-background-color: black;
-padding: 16px 14px;
-font-size: 15px;
-}
+    
+    
+    }
+
+    input {
+      border-radius: 25px;
+      background-color: #55067c55;
+      padding: 15px;
+      width: 500px;
+      height: 20px;
+      display: grid;
+      transition: 0.75s;
+      color: white;
+      backdrop-filter: blur(5.1px);
+      -webkit-backdrop-filter: blur(5.1px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+
+
+    }
+
+
+
+      
+      
+      
+      
+      .search-button {
+  
+        border-radius: 27px;
+        background-color: #55067c55;
+        padding: 15px;
+        width: 100px;
+        height: 55px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        color: white;
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        margin-left: 10px;
+        transition: .3s;
+        
+        
+        
+        
+        } 
+        
+        .search-button:hover {
+          background-color: #6c1f998a;
+        }
+
+
+
+
+    .search-container {
+          display: flex;
+          align-items: center;
+
+
+    }
+
+
+    .search{
+    border-radius: 25px;
+    background-color: #55067c;
+    padding: 1px;
+    width: 500px;
+    height: 40px;
+    display: grid;
+    transition: 0.75s;
+    margin: 10px;
+    
+    
+    }
+
 
 .random {
     background-color: black;
