@@ -1,277 +1,243 @@
-/* Ensure the body takes up the full height of the viewport */
+* {
+  font-family: 'Georgia', sans-serif;
+}
+
 body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  margin: 0;
-  color: #0000FF;
-  background-color: black;
-  text-align: center;
-  font-family: "Georgia", sans-serif;
-  justify-content: space-between;
+background-color: black;
+font-family: 'Amaranth', sans-serif;
+color: #FF0000; 
+text-decoration: none;
+justify-content: space-between;
+text-align: center;
+background-position: center;
+animation: fadeIn ease-out 0.8s;
 }
 
-h1 {
-  color: #0000FF;
-  font-family: "Georgia", sans-serif;
-  font-size: 2em;
-  margin-block-start: 0.7em;
-  margin-block-end: 0.7em;
-  margin-inline-start: 1px;
-  margin-inline-end: 1px;
-  font-weight: bold;
-  margin-top: 45px;
-  justify-content: center;
-  background-color: black;
+head {
+background-color: black;
+font-family: 'Garamond', sans-serif;
+text-decoration: none;
+color: #FFFFFF;
+text-align: center;
+font-size: 5em;
+animation: fadeIn ease-out 0.8s;
 }
 
-h2 {
-  color: #0000FF;
-  background-color: black;
-  text-align: center;
-  font-family: "Georgia", sans-serif;
-}
+ .game {
+    color: #FFFFFF;
+    font-family: 'Garamond', sans-serif;
+    text-decoration: none;
+    border: 5px solid #0000FF;
+    border-radius: 2px;
+    text-decoration-line: none;
+    grid-template-columns: 200px 1fr max-content;
+   }
 
-p {
-  color: #0000FF;
-  font-family: "Contrail One", sans-serif;
-  text-decoration: none;
-}
+  .game:hover {
+    color: #FFFFFF;
+    background-color: black;
+    font-family: 'Georgia', sans-serif;
+    text-decoration: none;
+    box-shadow: 3px red;
+  }
 
-nav a {
-  margin: 30px;
-  color: #0000FF;
-  text-align: center;
-  text-decoration: none;
-  font-family: "Georgia", sans-serif;
-}
+  .game a {
+    text-decoration: none;
+  }
 
-nav {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: #1a1a1a;
-  box-shadow: #1a1a1a;
-}
-
-footer {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: #1a1a1a;
-  box-shadow: #1a1a1a;
-  text-align: center;
-  width: 100%;
-}
-
-footer a {
-  margin: 20px;
-  color: #0000FF;
-  text-decoration: none;
-  font-family: "Georgia", sans-serif;
-}
-
-.content {
-  flex: 1;
-}
-
-.cloaks {
-  background-color: black;
-  color: #0000FF;
-  text-align: center;
-  font-family: "Georgia", sans-serif;
-}
-
-.time {
-  margin: 20px;
-  color: #0000FF;
-  text-align: center;
-  text-decoration: none;
-  font-family: "Georgia", sans-serif;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: #1a1a1a;
-  box-shadow: #1a1a1a;
-}
-
-.hacks {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
-}
-
-.hacks a {
-  text-decoration: none;
-  color: #0000FF;
-  font-family: "Georgia", sans-serif;
-  display: inline-block;
-  width: 500px;
-  padding: 10px;
-  text-align: left;
-}
-
-.hacks:hover a {
-  color: #fff;
-  background-color: #262626;
-  font-family: "Georgia", sans-serif;
-  text-decoration: none;
-  border: 2px solid #262626;
-  border-radius: 10px;
-  display: inline-block;
-  width: 500px;
-}
-
-.howtouse {
-  color: #0000FF;
-}
-
-.howtouse:visited {
-  color: #0000FF;
-}
-
-.game {
-  color: #0000FF;
-  font-family: "Georgia", sans-serif;
-  text-decoration: none;
-  border: 2px solid #6B83A8;
-  border-radius: 10px;
-  text-decoration-line: none;
-  grid-template-columns: 200px 1fr max-content;
-}
-
-.game:hover {
-  color: #fff;
-  background-color: #262626;
-  font-family: "Georgia", sans-serif;
-  text-decoration: none;
-}
-
-.game a {
-  text-decoration: none;
-}
-
-.suggest {
-  font-size: 15px;
-  color: #0000FF;
-  font-family: "Contrail One", sans-serif;
-}
-
-.game img,
-.suggest img {
+.game img {
   width: 100%;
   border-radius: 20px;
   aspect-ratio: 1 / 1;
 }
 
-.game h1 {
-  white-space: nowrap; /* Prevents text from wrapping to the next line */
-  overflow: hidden; /* Hides overflowed content */
-  text-overflow: ellipsis; /* Adds an ellipsis (...) to indicate overflowed content */
-}
-
-select#gamesPerPage {
-  background-color: black;
-  color: white; /* Text color */
-  border: 1px solid white;
-  -moz-appearance: none; /* Remove default styling */
-  -webkit-appearance: none; /* Remove default styling for Webkit browsers */
-  appearance: none; /* Remove default styling for Firefox */
-  padding: 10px;
-  font-size: 16px;
-}
-
-select#gamesPerPage:focus {
-  outline: none; /* Remove outline on focus */
-}
-
-select#gamesPerPage::-ms-expand {
-  display: none; /* Remove default arrow for Internet Explorer */
-}
-
-select#gamesPerPage::after {
-  content: '▼'; /* Unicode character for the arrow */
-  position: absolute;
-  top: 50%;
-  right: 10px;
-  transform: translateY(-50%);
-  pointer-events: none;
-  color: blue; /* Arrow color */
-}
-
-.game,
-.suggest {
+.game, .suggest {
   width: 15%;
-  border-radius: 25px;
+  border-radius: 20px;
   display: inline-block;
   background-color: var(--uibg);
   margin: 15px;
   cursor: pointer;
   box-shadow: 0px 0px 5px 5px var(--uibg);
 }
-
-button {
-  background-color: black;
-  border: 3px solid #6B83A8;
-  color: #0000FF;
-  text-align: center;
-  font-family: "Georgia", sans-serif;
+  
+  .sites {
+  justify-content: center;
+  font-size: 2em;
+  background-color: white;
+  color: black;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  height: 36px;
+  width: 250px;
+  border-radius: 4px;
+  border: 3px;
+  border-color: red;
 }
 
-button:hover {
-  background-color: #262626;
-  border: 2px solid #262626;
-  color: #fff;
+.sites:hover {
+  color: red;
+  font-size: 2em;
+  text-decoration: none;
+}
+  
+ #searchResultTemplate {
+      
+  border-radius: 25px;
+  background-color: #55067ca6;
+  padding: 15px;
+  width: 200px;
+  height: 210px;
+  display: grid;
+  transition: 0.30s;
+  margin: 10px;
+  display: inline-block;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  outline-style: solid;
+  outline-color:#490670;
+  }
+
+  .more {
+  
+    border-radius: 25px;
+    background-color: #55067c;
+    padding: 15px;
+    width: 100px;
+    height: 20px;
+    display: grid;
+    transition: 0.75s;
+    margin: 10px;
+    outline-style: solid;
+
+    
+    
+    }
+
+    input {
+      border-radius: 25px;
+      background-color: #55067c55;
+      padding: 15px;
+      width: 500px;
+      height: 20px;
+      display: grid;
+      transition: 0.75s;
+      color: white;
+      backdrop-filter: blur(5.1px);
+      -webkit-backdrop-filter: blur(5.1px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+
+
+    }
+
+
+
+      
+      
+      
+      
+      .search-button {
+  
+        border-radius: 27px;
+        background-color: #55067c55;
+        padding: 15px;
+        width: 100px;
+        height: 55px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        color: white;
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        margin-left: 10px;
+        transition: .3s;
+        
+        
+        
+        
+        } 
+        
+        .search-button:hover {
+          background-color: #6c1f998a;
+        }
+
+
+
+
+    .search-container {
+          display: flex;
+          align-items: center;
+
+
+    }
+
+
+    .search{
+    border-radius: 25px;
+    background-color: #55067c;
+    padding: 1px;
+    width: 500px;
+    height: 40px;
+    display: grid;
+    transition: 0.75s;
+    margin: 10px;
+    
+    
+    }
+
+
+.random {
+    background-color: black;
+    border: 2px solid blue;
+    color: blue;
+    text-align: center;
+    font-family: 'georgia', sans-serif;
+}
+
+.random:hover {
+  background-color: white;
+  border: 2px solid blue;
+  color: black;
   text-align: center;
-  font-family: "Georgia", sans-serif;
+  font-family: 'georgia', sans-serif;
   cursor: pointer;
 }
 
-* {
-  transition-duration: 0.5s;
-  outline: none;
-  border: none;
-  box-sizing: border-box;
-  align-content: center;
-  text-align: center;
-  font-family: "Georgia", sans-serif;
-  color: var(--textcolor);
+h1 {
+color: #FFFFFF;
+background-color: black;
 }
 
-input[type="text"] {
-  width: 50%;
-  background-color: var(--inputbg);
-  box-sizing: border-box;
-  font-size: 20px;
-  padding: 0.8% 0.8%;
-  text-align: center;
-  border-radius: 5px;
-  outline: none;
-  margin: 15px auto; /* Center the search bar */
-  border: 3px solid #fff;
-  border-radius: 10px;
-  transition: opacity 0.25s ease-in-out;
-  opacity: 100%;
-}
-
-.credit {
-  color: #0000FF;
-  text-align: center;
-  font-family: "Georgia", sans-serif;
-}
-
-.dev {
-  color: #fff;
-  margin: 5px;
-}
-
-.iframe-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Add padding to the last element in the main content area */
-main > *:last-child {
-  padding-bottom: 50px;
+p {
+  color: #FFFFFF;
+  font-size: 2em;
+  margin-bottom: 90px;
 }
 
 
+nav a {
+background-color: black;
+margin: 20px;
+font-family: 'Georgia', sans-serif;
+text-align: center;
+text-decoration: none;
+}
 
+nav {
+background-color: black;
+padding-top: 15px;
+padding-bottom: 15px;
+box-shadow: #000000;
+}
+
+.nav__links button {
+    display: inline-block;
+    padding: 15px 15px;
+    border: 4px solid #0000FF;
+    background-color: black;
+    font-size: 20px;
+    color: #FF0000;
+}
+
+.nav__links button:hover {
+    color: #FF0000;
+}
