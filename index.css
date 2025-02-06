@@ -134,7 +134,7 @@ footer a {
   border: 2px solid #6B83A8;
   border-radius: 10px;
   text-decoration-line: none;
-  grid-template-columns: 400px 1fr max-content;
+  grid-template-columns: 200px 1fr max-content;
 }
 
 .game:hover {
@@ -156,7 +156,7 @@ footer a {
 
 .game img,
 .suggest img {
-  width: 100%;
+  width: 75%;
   border-radius: 20px;
   aspect-ratio: 1 / 1;
 }
