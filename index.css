@@ -134,7 +134,7 @@ footer a {
   border: 2px solid #6B83A8;
   border-radius: 10px;
   text-decoration-line: none;
-  grid-template-columns: 200px 1fr max-content;
+  grid-template-columns: 100px 1fr max-content;
 }
 
 .game:hover {
